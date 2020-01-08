@@ -23,7 +23,7 @@
    <glob_external_inputs_fireduration>6000</glob_external_inputs_fireduration><!-- duration of the external input -->
    <glob_external_inputs_amplitude>0.074</glob_external_inputs_amplitude><!-- amplitude of each external input -->
    <avg_neuronal_signal_speed>5.1</avg_neuronal_signal_speed><!-- axonal speed -->
-   <glob_plasticity>false</glob_plasticity><!-- enable plasticity rule -->
+   <glob_plasticity>false</glob_plasticity> <!-- enable plasticity rule -->
    <glob_plasticity_eta_plus></glob_plasticity_eta_plus>
    <glob_plasticity_eta_minus></glob_plasticity_eta_minus>
    <glob_plasticity_tau_plus></glob_plasticity_tau_plus>
