@@ -30,8 +30,8 @@
    <glob_plasticity_tau_minus></glob_plasticity_tau_minus>
    <glob_plasticity_to></glob_plasticity_to>
    <global_neuron_manager><!-- neuron parameters -->
-      <D_exc>0.07</D_exc><!-- linear decay factor for the inner state of each neuron -->
-      <D_inh>0.07</D_inh><!-- linear decay factor for the inner state of each neuron -->
+      <D_exc>0.07</D_exc><!-- underthreshold decay constant of each exc neuron -->
+      <D_inh>0.07</D_inh><!-- underthreshold decay constant of each inh neuron -->
       <c>0.04</c><!-- threshold constant -->
       <t_arp>2</t_arp><!-- refractory period of each neuron (ms) -->
       <a>1</a>
