@@ -10,7 +10,8 @@ In order to obtain the .CSVs of the model activity (firing.CSV and burning.CSV) 
 
 or 
 
-> .\start.bat single_node -M  (Linux)
+$ ./start single_node -M  (Linux)
+
 --
 
 Through the folder 'resonance_pair' the user will be able to reproduce the Resonance Pair mechanism, as described in the paper of:
@@ -22,6 +23,7 @@ In order to obtain the .CSVs of the model activity (firing.CSV and burning.CSV) 
 
 or 
 
+$ ./start resonance_pair -M  (Linux)
 
 --
 
@@ -32,19 +34,18 @@ In order to obtain the .CSVs of the model activity (firing.CSV and burning.CSV) 
 
 or 
 
+$ ./start dynamical_relaying -M  (Linux)
 
 --
 
 Through the folder 'connectivity_14' the user will be able to simulate the Default Mode Network (composed of 14 regions) of a real subject, described in the paper "FNS: an event-driven spiking neural network based on the LIFL model" (in review).
 In order to obtain the .CSVs of the model activity (firing.CSV and burning.CSV) in the folder FNS/connectivity_14/output, the following "experiment command" can be used:
 
-> .\start.bat connectivity_14 -M
+> .\start.bat connectivity_14 -M  (Windows)
 
 or 
 
-
-
-In order to run this model the user should have to increase the heap size. Please refer to the user manual for the instructions.
+$ ./start connectivity_14 -M  (Linux)
 
 --
 
