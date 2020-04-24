@@ -6,7 +6,7 @@ Note that, in order to run some of the examples the user should have to increase
 Through the folder 'single_node' the user will be able to reproduce the activity within a single node.
 In order to obtain the .CSVs of the model activity (firing.CSV and burning.CSV) in the folder FNS/single_node/output, the following "experiment command" can be used:
 
-> .\start.bat single_node -M  (Windows)
+>> .\start.bat single_node -M  (Windows)
 
 or 
 
