@@ -1,5 +1,8 @@
 # FNS-simulation_examples
 
+Note that, in order to run some of the examples the user should have to increase the 'heap size' in JAVA . Please refer to the user manual for the instructions.
+
+
 Through the folder 'single_node' you will be able to reproduce the activity within a single node.
 In order to obtain the .CSVs of the model activity (firing.CSV and burning.CSV) in the folder FNS/single_node/output, you can use the following "experiment command":
 
