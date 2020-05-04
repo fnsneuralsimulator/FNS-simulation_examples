@@ -1,0 +1,7 @@
+Through this folder the user will be able to simulate the Default Mode Network (composed of 14 regions) of a real subject, described in the paper "FNS: an event-driven spiking neural network based on the LIFL model" (in review). In order to obtain the .CSVs of the model activity (firing.CSV and burning.CSV) in the folder FNS/connectivity_14/output, the following "experiment command" can be used:
+
+.\start.bat connectivity_14 (Windows)
+
+or
+
+$ ./start connectivity_14 (Linux)
