@@ -1,9 +1,0 @@
-Through this folder the user will be able to reproduce the BENCHMARK B (Default Mode Network - 14 NOI) presented in the paper "FNS: an event-driven spiking neural network based on the LIFL model" (in review). 
-
-In order to obtain the spiking and postsynaptic activity of the network populations (firing_r.CSV and burning_r.CSV) in the folder FNS/BENCHMARK_B/output, the following "experiment command" can be used:
-
-.\start.bat connectivity_14 -r (Windows)
-
-or
-
-$ ./start connectivity_14 -r (Linux)
