@@ -2,8 +2,10 @@
 
 <fns_config>
    <stop>3000</stop><!-- simulation time (ms) -->
+   <serialize_after>100000</serialize_after>
    <lif>false</lif>
    <exp_decay>false</exp_decay>
+   
    <glob_n>100</glob_n><!-- number of neurons for each node -->
    <glob_rewiring_P>0.5</glob_rewiring_P><!-- SW rewiring probability-->
    <glob_k>30</glob_k><!-- SW mean degree -->
@@ -29,6 +31,7 @@
    <glob_plasticity_tau_plus></glob_plasticity_tau_plus>
    <glob_plasticity_tau_minus></glob_plasticity_tau_minus>
    <glob_plasticity_to></glob_plasticity_to>
+   <glob_w_max></glob_w_max>
    <global_neuron_manager><!-- neuron parameters -->
       <D_exc>0.07</D_exc><!-- underthreshold decay constant of each exc neuron -->
       <D_inh>0.07</D_inh><!-- underthreshold decay constant of each inh neuron -->
