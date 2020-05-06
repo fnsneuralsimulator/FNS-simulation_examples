@@ -18,7 +18,8 @@
    <glob_sigma_w_inh>0</glob_sigma_w_inh>
    <glob_w_pre_exc>1</glob_w_pre_exc><!-- pre-synaptic excitatory amplitude-->
    <glob_w_pre_inh>1</glob_w_pre_inh><!-- pre-synaptic inhibitory amplitude-->
-   <glob_external_inputs_number>100</glob_external_inputs_number><!-- number of (parallel) external inputs -->
+   <glob_external_inputs_number>100</glob_external_inputs_number><!-- number of external inputs -->
+   <glob_external_inputs_outdegree>1</glob_external_inputs_outdegree><!-- number of targets of each external input -->
    <glob_external_inputs_type>1</glob_external_inputs_type><!-- type of external input:0) Poisson, 1) constant, 2) noise -->
    <glob_external_inputs_time_offset>0</glob_external_inputs_time_offset><!-- external input initial time offset -->
    <glob_external_inputs_timestep>1</glob_external_inputs_timestep><!-- time step between two distinct input event from the same input source, for Poisson and constant input type -->
