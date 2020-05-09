@@ -52,8 +52,8 @@
       <R>0.8</R>
       <Bn>0</Bn>
       <IBI>0</IBI>
-      <mu_w_exc>0.04</mu_w_exc>
-      <mu_w_inh>0.04</mu_w_inh>
+      <mu_w_exc>0.08</mu_w_exc>
+      <mu_w_inh>0.08</mu_w_inh>
       <sigma_w_exc>0</sigma_w_exc>
       <sigma_w_inh>0</sigma_w_inh>
       <w_pre_exc>1</w_pre_exc>
